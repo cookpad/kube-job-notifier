@@ -146,7 +146,7 @@ func NewController(
 
 				for name, n := range notifications {
 					if cronJobName == "" {
-						klog.Infof("Ignore start notification for %s because it's a cron job", name)
+						klog.Infof("Ignore success notification for %s because it's a cron job", name)
 						continue
 					}
 					err = n.NotifySuccess(messageParam, getSlackChannel(newJob))
