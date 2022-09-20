@@ -1,4 +1,4 @@
-module github.com/yutachaos/kube-job-notifier
+module github.com/cookpad/kube-job-notifier
 
 go 1.19
 
@@ -8,6 +8,7 @@ require (
 	github.com/slack-go/slack v0.10.2
 	github.com/stretchr/testify v1.8.0
 	github.com/thoas/go-funk v0.9.2
+	github.com/yutachaos/kube-job-notifier v0.0.26
 	k8s.io/api v0.23.5
 	k8s.io/apimachinery v0.23.5
 	k8s.io/client-go v0.23.5
@@ -40,7 +41,6 @@ require (
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
-	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
