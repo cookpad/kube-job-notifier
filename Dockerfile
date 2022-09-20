@@ -4,7 +4,7 @@ COPY . /go/src/app
 RUN go build -o ./kube-job-notifier *.go
 
 FROM alpine:3.16
-LABEL maintainer="yevhen <yevhen.zavhorodnii@gmail.com>"
+LABEL maintainer="yevhen <yevhen-zavhorodnii@cookpad.jp>"
 
 COPY --from=build-env /go/src/app/kube-job-notifier .
 
