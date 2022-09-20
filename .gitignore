@@ -111,6 +111,12 @@ fabric.properties
 .idea/**/markdown-navigator.xml
 .idea/**/markdown-navigator/
 
+# GoLand files
+.idea/.gitignore
+.idea/kube-job-notifier.iml
+.idea/modules.xml
+.idea/vcs.xml
+
 ### macOS ###
 # General
 .DS_Store
